@@ -2,9 +2,10 @@
 h1{
     font-size: 30px;
 }
-section{
+.banner-area{
     display:flex;
     margin-bottom:100px ;
+    align-items: center;
 }
 .container{
     width: 50%;
@@ -37,9 +38,7 @@ section{
     height: 104px;
 
 }
-.collection-info{
 
-}
 .fa-star{
     font-size: 12px;
 }
