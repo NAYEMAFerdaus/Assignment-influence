@@ -1,0 +1,51 @@
+
+h1{
+    font-size: 30px;
+}
+section{
+    display:flex;
+    margin-bottom:100px ;
+}
+.container{
+    width: 50%;
+    padding-left: 5px;
+}
+.container img{
+    width: 75%;
+}
+.link-button{
+    text-decoration:none;
+    background-color: #e22e6d;
+    padding: 10px 40px;
+    color:white;
+    border-radius: 15px;
+}
+/* collection-part-------------
+----------------------start----------
+--------- */
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.collection-title{
+    text-align: center;
+}
+
+.product . collection-img img{
+    width: 224px;
+    height: 104px;
+
+}
+.collection-info{
+
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color:#FFC014;
+}
+.fa-star.half-alt{
+    color:#FFC014;
+}
