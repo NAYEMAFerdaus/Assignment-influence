@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 header{
 display: flex;
 justify-content:space-between;
@@ -18,8 +23,10 @@ h1{
     width: 50%;
     padding-left: 5px;
 }
-.container img{
-    width: 75%;
+.container > img:hover {
+    width: 65%;
+    transform: scale(1.2);
+    transition:transform 1s;
 }
 .link-button{
     text-decoration:none;
@@ -35,17 +42,22 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    margin: 20px 20px;
 }
 .collection-title{
     text-align: center;
 }
+.product{
+    box-shadow: 7px 9px 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 20px;
 
-.product . collection-img img{
+}
+
+.product > img{
     width: 224px;
     height: 104px;
-
-
-
 }
 
 .fa-star{
@@ -54,8 +66,18 @@ h1{
 .fa-star.filled{
     color:#FFC014;
 }
-.fa-star.half-alt{
+.fa-star-half-alt{
     color:#FFC014;
+}
+.btn-un{
+    width: 100%;
+    float: right;
+}
+.btn-un > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e22e6d;
+    line-height: 46px;
 }
 /* footer area */
 .footer-area{
@@ -70,4 +92,7 @@ h1{
     margin: 0px 15px;
     font-size: 18px;
     display: inline-block;
+}
+.footer-contant i{
+    margin-left: 10px;
 }
